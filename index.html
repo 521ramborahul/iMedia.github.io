@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iMedia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <img src="images/image/logo2.png" class="logo2">
+            <ul>
+                <li> <img src="images/image/notification.png"> </li>
+                <li> <img src="images/image/inbox.png"> </li>
+                <li> <img src="images/image/video.png"> </li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/image/search.png">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/image/profile-pic2.jpg" alt="profile pic">
+            </div>
+        </div>
+
+        <!-----------------settings-menu------------------>
+
+        <div class="settings-menu">
+
+           <div id="dark-btn">
+               <span></span>
+           </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/image/profile-pic2.jpg" alt="profile pic">
+                    <div>
+                        <p>Ramborahul</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+    
+                <div class="user-profile">
+                    <img src="images/image/feedback.png" alt="profile pic">
+                    <div>
+                        <p>Give Your Valuable Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+
+                   <div class="settings-links">
+                       <img src="images/image/setting.png" class="settings-icon">
+                       <a href="#">Settings and Privacy <img src="images/image/arrow.png" width="10px" alt=""></a>
+                   </div>
+
+                   <div class="settings-links">
+                    <img src="images/image/help.png" class="settings-icon">
+                    <a href="#">Help and Support <img src="images/image/arrow.png" width="10px" alt=""></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="images/image/display.png" class="settings-icon">
+                    <a href="#">Display and Accessibility <img src="images/image/arrow.png" width="10px" alt=""></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="images/image/logout.png" class="settings-icon">
+                    <a href="#">Logout<img src="images/image/arrow.png" width="10px" alt=""></a>
+                </div>
+
+            </div>
+        </div>
+            
+        </nav>
+
+    <div class="container">
+        <!-----------------left-sidebar------------------>
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"> <img src="images/image/news.png"> Latest News</a>
+                <a href="#"> <img src="images/image/friends.png"> Friends</a>
+                <a href="#"> <img src="images/image/group.png"> Group</a>
+                <a href="#"> <img src="images/image/marketplace.png">Marketplace</a>
+                <a href="#"> <img src="images/image/watch.png"> Watch</a>
+                <a href="#"> See More</a>
+            </div>
+
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"> <img src="images/image/shortcut-1.png"> Web Developer</a>
+                <a href="#"> <img src="images/image/shortcut-2.png"> Web Design Course</a>
+                <a href="#"> <img src="images/image/shortcut-3.png"> Full Stack Development</a>
+                <a href="#"> <img src="images/image/shortcut-4.png"> Website Experts</a>
+
+            </div>
+
+        </div>
+        <!-----------------main-content------------------>
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="images/image/upload.png" alt="">
+                    <p>Post Story</p>
+                </div>
+
+
+                <div class="story story2">
+                    <img src="images/image/member-1.png" alt="">
+                    <p>Henry Poddar</p>
+                </div>
+
+                <div class="story story3">
+                    <img src="images/image/member-2.png" alt="">
+                    <p>Ammy Jack</p>
+                </div>
+
+                <div class="story story4">
+                    <img src="images/image/member-3.png" alt="">
+                    <p>Emmason Roy</p>
+                </div>
+
+                <div class="story story5">
+                    <img src="images/image/member-4.png" alt="">
+                    <p>Anant Raok</p>
+                </div>
+            </div>
+
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/image/profile-pic2.jpg" alt="profile pic">
+                    <div>
+                        <p>Ramborahul</p>
+                        <small>Public <i class="fas fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind,Rambo?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"> <img src="images/image/live-video.png">Live Video</a>
+                        <a href="#"> <img src="images/image/photo.png">Photo/Video</a>
+                        <a href="#"> <img src="images/image/feeling.png">Feeling/Activity</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/image/profile-pic2.jpg" alt="profile pic">
+                        <div>
+                            <p>Ramborahul</p>
+                            <span>January 2 2021, 4:05 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+
+                </div>
+                <p>Knowledge is not the power, implementation of that knowledge is the real power...!</p>
+                <p>Jindagi teri,sapne tera,manjil teri,haar-jeet mehnat sab kuchh tera. <br> Fir ye faltu logo ki baate
+                    sunkar haar maan lena kaun sa natak hai tera...! </p>
+                <img src="images/image/1620215905691.jpg" class="post-img" alt="">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/image/like-blue.png">150</div>
+                        <div><img src="images/image/comments.png">25</div>
+                        <div><img src="images/image/share.png">5</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <!--  <img src="images/image/profile-pic.png" alt=""> -->
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/image/profile-pic2.jpg" alt="profile pic">
+                        <div>
+                            <p>Ramborahul</p>
+                            <span>February 5 2021, 2:05 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+
+                </div>
+                <p>Blur Your Past...</p>
+                <p>Lighten Your Present...</p>
+                <p>Brighten Your Future...!</p>
+                <img src="images/image/IMG_20211027_163822_612.webp" class="post-img" alt="">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/image/like-blue.png">200</div>
+                        <div><img src="images/image/comments.png">15</div>
+                        <div><img src="images/image/share.png">3</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <!--  <img src="images/image/profile-pic.png" alt=""> -->
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/image/profile-pic2.jpg" alt="profile pic">
+                        <div>
+                            <p>Ramborahul</p>
+                            <span>March 7 2021, 10:25 am</span>
+                        </div>
+                    </div>
+                    <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+
+                </div>
+                <p>!...HUMSAFAR...!</p>
+
+                <img src="images/image/text1.jpg" class="post-img" alt="">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/image/like-blue.png">130</div>
+                        <div><img src="images/image/comments.png">12</div>
+                        <div><img src="images/image/share.png">7</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <!--  <img src="images/image/profile-pic.png" alt=""> -->
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/image/profile-pic2.jpg" alt="profile pic">
+                        <div>
+                            <p>Ramborahul</p>
+                            <span>March 10 2021, 12:25 am</span>
+                        </div>
+                    </div>
+                    <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+
+                </div>
+                <p>!...HAPPINESS...!</p>
+
+                <img src="images/image/text2.jpg" class="post-img" alt="">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/image/like-blue.png">180</div>
+                        <div><img src="images/image/comments.png">15</div>
+                        <div><img src="images/image/share.png">5</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <!--  <img src="images/image/profile-pic.png" alt=""> -->
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/image/profile-pic2.jpg" alt="profile pic">
+                        <div>
+                            <p>Ramborahul</p>
+                            <span>March 20 2021, 11:25 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+
+                </div>
+                <p>Black and White..!</p>
+
+                <img src="images/image/IMG_20210828_004317.png" class="post-img" alt="">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/image/like-blue.png">280</div>
+                        <div><img src="images/image/comments.png">25</div>
+                        <div><img src="images/image/share.png">5</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <!--  <img src="images/image/profile-pic.png" alt=""> -->
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/image/profile-pic2.jpg" alt="profile pic">
+                        <div>
+                            <p>Ramborahul</p>
+                            <span>April 10 2021, 09:25 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+
+                </div>
+                <p>Apna Village..!</p>
+                <p>#ChildhoodLife</p>
+
+                <img src="images/image/text3.jpg" class="post-img" alt="">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/image/like-blue.png">240</div>
+                        <div><img src="images/image/comments.png">21</div>
+                        <div><img src="images/image/share.png">9</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <!--  <img src="images/image/profile-pic.png" alt=""> -->
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/image/profile-pic2.jpg" alt="profile pic">
+                        <div>
+                            <p>Ramborahul</p>
+                            <span>August 25 2021, 09:25 am</span>
+                        </div>
+                    </div>
+                    <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+
+                </div>
+                <p>Lockdown Love</p>
+                <p>#SocialDistancing</p>
+
+                <img src="images/image/text4.jpg" class="post-img" alt="">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/image/like-blue.png">240</div>
+                        <div><img src="images/image/comments.png">21</div>
+                        <div><img src="images/image/share.png">9</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <!--  <img src="images/image/profile-pic.png" alt=""> -->
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <button type="button" class="load-more-btn">Load More</button>
+
+
+        </div>
+
+        <!-----------------Right-sidebar------------------>
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#"> See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>1</h3>
+                    <span>January</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p> <i class="fas fa-map-marker-alt"></i>iMedia Tech Hall</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>5</h3>
+                    <p> <i class="fa-regular fa-location-dot"></i></p>
+                    <span>February</span>
+                </div>
+                <div class="right-event">
+                    <h4>Digital Marketing</h4>
+                    <p> <i class="fas fa-map-marker-alt"></i>iMedia Tech Hall</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>15</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Entrepreneurship</h4>
+                    <p> <i class="fas fa-map-marker-alt"></i>iMedia Tech Hall</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images/image/advertisement.png" class="sidebar-ads" alt="">
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/image/member-1.png" alt="">
+                </div>
+                <p>Henry Poddar</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/image/member-2.png" alt="">
+                </div>
+                <p>Ammy Jack</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/image/member-3.png" alt="">
+                </div>
+                <p>Emmason Roy</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/image/member-4.png" alt="">
+                </div>
+                <p>Anant Raok</p>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright 2022-@iMedia</p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
